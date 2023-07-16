@@ -1,0 +1,53 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&display=swap');
+
+body{
+    background-color: cyan;
+}  
+.cont{
+    display: flex;
+    /* background-color: black; */
+    justify-content: center;
+}
+.calculator{
+    background-image: url('bgimg.jpg');
+    background-repeat: no-repeat;
+    background-size: 900px;
+    border-radius: 3%;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Libre Franklin', sans-serif;
+}
+h1 {
+    text-align: center;
+}
+button{
+    padding: 20px;
+    margin: 0px 10px;
+    height: 60px;
+    width:60px;
+    border: 2px solid black;
+    border-radius: 100%;
+    background-image: rgb(134, 108, 108);
+    font-size: 19px;
+    align-items: center;
+    font-family: 'Libre Franklin', sans-serif;
+}
+.row{
+    margin: 10px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: cyan;
+}
+.row input{
+    font-size: 20px;
+    padding: 10px 30px;
+    margin: 0;
+    width: 240px;
+    height: 30px;
+    border-radius: 9px;
+    border: 2px solid black;
+    font-family: 'Libre Franklin', sans-serif;
+}
