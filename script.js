@@ -8,11 +8,17 @@ Array.from(buttons).forEach((button) => {
             try{
             string = eval(string);
             document.querySelector('input').value = string;
+            string="";
             }
             catch(error){
                 string ="";
             document.querySelector('input').value = string;
             }
+        }
+        else {
+                string = eval(document.querySelector('input').value);
+                document.querySelector('input').value = string;
+                string = "";
         }
         }
 
